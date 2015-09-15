@@ -18,5 +18,6 @@ Walkthrough of all user stories:
 
 ![Video Walkthrough](RottenT_gif.gif)
 
-![Videp Walkthrough](RottenT_gif_nav_bar.gif)
+![Video Walkthrough](RottenT_gif_nav_bar.gif)
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
