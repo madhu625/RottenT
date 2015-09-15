@@ -13,9 +13,10 @@ Completed user stories:
  * [x] Required: User can pull to refresh the movie list.
  * [x] Additional: Must use Cocoapods.
  * [x] Additional: Asynchronous image downloading must be implemented using the UIImageView category in the AFNetworking library.
-
+ * [x] Optional: Customize the navigation bar (Changed color to black, text color to orange)
 Walkthrough of all user stories:
 
 ![Video Walkthrough](RottenT_gif.gif)
 
+![Videp Walkthrough](RottenT_gif_nav_bar.gif)
 GIF created with [LiceCap](http://www.cockos.com/licecap/).

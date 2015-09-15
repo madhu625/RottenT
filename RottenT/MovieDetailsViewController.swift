@@ -20,6 +20,7 @@ class MovieDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         let posters = movie ["posters"] as! NSDictionary
         let thumb = posters["thumbnail"] as! String
         let detailedThump = thumb.stringByReplacingOccurrencesOfString(FROM_STRING, withString: TO_STRING, options: NSStringCompareOptions.LiteralSearch, range: nil)

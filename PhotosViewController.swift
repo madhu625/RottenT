@@ -20,6 +20,8 @@ class PhotosViewController: UIViewController,UITableViewDataSource {
     
 
     
+    @IBOutlet weak var navigationBar: UINavigationItem!
+    
     var scrollView: UIScrollView?
     var movies:NSArray?
 
@@ -47,7 +49,8 @@ class PhotosViewController: UIViewController,UITableViewDataSource {
     override func viewDidLoad() {
         self.networkErrorView.hidden = true
         super.viewDidLoad()
-        
+        self.navigationController!.navigationBar.barTintColor = UIColor.blackColor()
+        self.navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.orangeColor()]
         self.refreshControl = UIRefreshControl()
         self.refreshControl.attributedTitle = NSAttributedString(string: "Pull to Refresh")
         self.refreshControl.addTarget(self, action: "onRefresh", forControlEvents: UIControlEvents.ValueChanged)
